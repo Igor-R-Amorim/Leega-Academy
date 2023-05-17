@@ -41,3 +41,6 @@ E, a modelagem relacional que existe nesta aplicação é:
 Com base nestas informações, o nosso trabalho será aplicar tudo o que
 aprendemos nos módulos e “operacionalizar” a solução de Analytics e Data
 Science da Leega Foods.
+
+Após a divisão dos Grupos, foi levantado a arquitetura esquemática do projeto
+<p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/032ff14f73d3585618844bc90f57244a6fd6ae88/Leega-Foods/Imagens/Arquitetura.png width=84%></p>
