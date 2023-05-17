@@ -11,8 +11,8 @@ e após fechado o negócio, definiram que o novo nome será Leega Foods. <br>
 A nossa equipe de dados formada por analistas, engenheiros e
 cientistas de dados foi chamada para várias reuniões. Nelas tivemos
 oportunidade de conhecer esta operação e como estão montadas as
-soluções de tecnologia, mas, durante estas reuniões percebemos que
-empresa antiga não possuía uma solução de Analytics, e muito menos
+soluções de tecnologia, mas, durante as reuniões percebemos que
+antiga empresa não tinha uma solução de Analytics, e muito menos
 de ciência de dados, portanto, para que possamos crescer ainda mais, teremos que
 criar uma solução capaz de suportar a operação desta nova empresa e gerar
 importantes insights para nossos acionistas. <br> 
