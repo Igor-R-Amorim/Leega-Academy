@@ -139,36 +139,36 @@ Durante as reuniões rascunhamos rapidamente as solicitações do cliente. [A di
 
 - Visão 1
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%201.png width=84%></p>
-Uma Visão identica a desenhada pela antiga SupremEats
+Uma Visão identica a desenhada pela antiga SupremEats 
 
 - Visão 2
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%202.png width=84%></p>
-Solicitação: "Tenho uma hipotese que o valor total do pedido e o valor do desconto tem uma correlação por produto"
+Solicitação: "Tenho uma hipotese que o valor total do pedido e o valor do desconto tem uma correlação por produto" <br>
 Queria em um grafico, em uma visualização, por categoria, e por produto. Se a hipotese total pedido vs valor desconto é verdadeira. Toda vez que aumenta o desconto, os clientes pedem mais produtos dentro da nossa empresa? Isso realmente acontece?
  
 - Visão 3
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%203.png width=84%></p>
-Solicitação: "Um sistema de semaforo, totais do produto por categoria"
+Solicitação: "Um sistema de semaforo, totais do produto por categoria" <br>
 Além do total do produto, quero a visao da quantidade comprada, do valor do frete, valor desconto, valor total produto, sinalizando aqueles totais que estão abaixo, media ou acima, alem de seleção periodo acima.
 
 - Visão 4
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%204.png width=84%></p>
-Solicitação: "Ao longo do ano, sementre, trimestre, mes, uma visao por fornecedor, por categoria, das quantidades vendidas, e valores totais dos produtos"
+Solicitação: "Ao longo do ano, sementre, trimestre, mes, uma visao por fornecedor, por categoria, das quantidades vendidas, e valores totais dos produtos" <br>
 Desejo selecionar a categoria do produto e selecionar o produto que quiser.
 
 - Visão 5
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%205.png width=84%></p>
-Solicitação: "Visão geográfica"
+Solicitação: "Visão geográfica" <br>
 Visão geográfica pra identificar os locais que mais compraram, o valor do desconto dado e também o total do produto comprado, e que esta região, o tamanho da compra, defina o tamanho da bolha ou símbolo que preferir.
 
 - Visão 6
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%206.png width=84%></p>
-Solicitação: "Transportadora x Frete"
+Solicitação: "Transportadora x Frete" <br>
 Quanto esta sendo pagando de frete pra transportadora, por tipo de transportadora, por trasnportadora, ao longo do tempo, quais os paises e regiões que mais gastamos com frete. a visão deve ser do maior pro menor.
 
 - Visão 7
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%207.png width=84%></p>
-Não Solicitado.
+Não Solicitado. <br>
 Trouxemos uma visao extra para responder questoes mais basicas utilizando as dimensoes não participantes das perguntas do cliente.
 Sobre quais paises o vendedor que mais fatura atua.
 O vendedor que mais fatura é o que atende o maior numero de pedidos? ele é o que dá mais descontos?
