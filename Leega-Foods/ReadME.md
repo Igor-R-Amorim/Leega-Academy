@@ -94,3 +94,35 @@ As tabelas com transformaçoes foram: Detalhes_Pedidos, Pedidos, Funcionarios, C
 - JOB Carga_ODS
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/Carga_ODS.png width=84%></p>
 
+<br>
+<h3 align=center><strong> ETL2: Carregamento Dimensional </strong></h3>
+
+Procurando responder o maior numero de perguntas gerenciais possiveis, foi-se estudado qual seria o melhor schema para a proposta do Leega Foods, O star Schema nos geraria uma performance melhor que o modelo snow-flake ou o modelo pai-filho. 
+
+- Modelagem Dimensional
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/Dim.png width=84%></p>
+
+Para atender algumas exigencias do Leega foods foi necessario desenvolver algumas lógicas para verificar:
+1) Se os transportadores eram globais ou locais;
+2) Quais eram as equipes dos funcionarios (Alpha, Beta, Coyote, Delta ou Figma)
+3) O tipo de Cliente conforme o gasto em pedidos, se ele é classificação A B ou C (A >= 100k > B > 30k > C)
+4) O tipo de Fornecedor conforme o gasto em pedidos, se ele é classificação A B ou C
+
+Assim como na ODS Para obter resultados condizentes com a modelagem foi necessário enriquecer alguns elementos e/ou remover alguns campos.
+As tabelas com transformações foram: DIM_transportadora, DIM_Funcionarios, DIM_Cliente, DIM_Fornecedor, FT_Pedidos. O restante foi apenas carregado no MySQL.
+ 
+- ETL DIM_transportadora
+<br><br> <p align=center><img src= width=84%></p>
+
+- ETL DIM_Funcionarios
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/DIM_Funcionario.png width=84%></p>
+
+- ETL DIM_Cliente
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/DIM_Cliente.png width=84%></p>
+
+- ETL DIM_Fornecedor
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/DIM_Fornecedor.png width=84%></p>
+
+- ETL FT_Pedidos
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/FT_Pedido.png width=84%></p>
+
