@@ -135,24 +135,48 @@ A fim de conseguir rodar as Cargas Historicas é necessario que o DataBase (DB) 
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/af709987d752b1ebda415deaa395fb3ba46ed27a/Leega-Foods/Imagens/Carga_Historica.png width=84%></p>
 
 Para Finalizar, foi conectado o PowerBI ao Mysql a fim de gerar alguns insights e levar para a gestão avaliar o valor das visões levantadas pela equipe de Dados.
+Durante as reuniões rascunhamos rapidamente as solicitações do cliente. [A dinamica aqui é anotar o maximo de detalhe enquanto o cliente pensa o que ele deseja como produto] 
 
 - Visão 1
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%201.png width=84%></p>
+Uma Visão identica a desenhada pela antiga SupremEats
 
 - Visão 2
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%202.png width=84%></p>
-
+Solicitação: "Tenho uma hipotese que o valor total do pedido e o valor do desconto tem uma correlação por produto"
+Queria em um grafico, em uma visualização, por categoria, e por produto. Se a hipotese total pedido vs valor desconto é verdadeira. Toda vez que aumenta o desconto, os clientes pedem mais produtos dentro da nossa empresa? Isso realmente acontece?
+ 
 - Visão 3
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%203.png width=84%></p>
+Solicitação: "Um sistema de semaforo, totais do produto por categoria"
+Além do total do produto, quero a visao da quantidade comprada, do valor do frete, valor desconto, valor total produto, sinalizando aqueles totais que estão abaixo, media ou acima, alem de seleção periodo acima.
 
 - Visão 4
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%204.png width=84%></p>
+Solicitação: "Ao longo do ano, sementre, trimestre, mes, uma visao por fornecedor, por categoria, das quantidades vendidas, e valores totais dos produtos"
+Desejo selecionar a categoria do produto e selecionar o produto que quiser.
 
 - Visão 5
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%205.png width=84%></p>
+Solicitação: "Visão geográfica"
+Visão geográfica pra identificar os locais que mais compraram, o valor do desconto dado e também o total do produto comprado, e que esta região, o tamanho da compra, defina o tamanho da bolha ou símbolo que preferir.
 
 - Visão 6
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%206.png width=84%></p>
+Solicitação: "Transportadora x Frete"
+Quanto esta sendo pagando de frete pra transportadora, por tipo de transportadora, por trasnportadora, ao longo do tempo, quais os paises e regiões que mais gastamos com frete. a visão deve ser do maior pro menor.
 
 - Visão 7
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%207.png width=84%></p>
+Não Solicitado.
+Trouxemos uma visao extra para responder questoes mais basicas utilizando as dimensoes não participantes das perguntas do cliente.
+Sobre quais paises o vendedor que mais fatura atua.
+O vendedor que mais fatura é o que atende o maior numero de pedidos? ele é o que dá mais descontos?
+O Cliente que gasta mais com a gente é o que mais faz pedidos? é o que paga mais caro em frete?
+
+Perguntas futuras.
+Qual seria o ticket medio de clientes por categoria?
+A Categoria A tem um ticket medio maior que a média geral?
+
+Devido ao tempo do projeto, algumas perguntas ficaram em aberto para a proxima etapa do projeto.
+Com elas, o desenvolvimento das ETLs agendadas no pentaho/crontab.
