@@ -34,7 +34,8 @@ que foca em transações operacionais. Esta solução possui as seguintes bases:
 9. Países <br>
 
 E, a modelagem relacional que existe nesta aplicação é:
-[<imagem>](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ea8e94d5beab59a46e9b6da175e4f65c3bb0d551/Leega-Foods/Imagens/Modelagem%20Leega_Foods.png)
+<p align=center><img src="https://github.com/Igor-R-Amorim/Leega-Academy/blob/ea8e94d5beab59a46e9b6da175e4f65c3bb0d551/Leega-Foods/Imagens/Modelagem%20Leega_Foods.png" width=84%></p>
+
 <br>
   
 Com base nestas informações, o nosso trabalho será aplicar tudo o que
