@@ -20,7 +20,9 @@ importantes insights para nossos acionistas. <br>
 
 <p align="justify">
 Toda operação está apoiada por um “ERP Caseiro” desenvolvido em Microsoft Access
-que foca em transações operacionais. Esta solução possui as seguintes bases: <br>
+que foca em transações operacionais.
+<p align=center><img src="https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/access%20gif.gif" width=84%></p>  
+Esta solução possui as seguintes bases: <br>
 </p>
 
 1. Categoria dos Produtos
@@ -60,5 +62,35 @@ Por fim, a infraestrutura deve ser capaz de segmentar as visões em diferentes D
 <br>
 <h3 align=center><strong> WorkFlow </strong></h3>
 Levando em consideração o custo de aquisição do seguimento de Ecommerce, a equipe optou por seguir com ferramentas OpenSource e/ou com licencas community disponiveis.
-Portanto o workflow que seria desenvolvido seria:
+<br>-Ferramenta de ETL: Pentaho 9.3
+<br>-Ambiente da ODS: Pasta Drive (simulando uma pasta em servidor interno, com controle de acesso)[Liberando apenas os emails dos envolvidos]
+<br>-Ambiente DW: MySQL Community Edition
+<br>-Ambiente Relatorios: PowerBI Desktop 
+
+<br> Portanto o workflow que seria desenvolvido seria:
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/22aca8f4f640ade90d37168146ef86920e4b9c0c/Leega-Foods/Imagens/WorkFlow.jpg width=84%></p>
+
+<br>
+<h3 align=center><strong> ETL1: Geração da ODS </strong></h3>
+
+Para a geração da ODS optou-se por mantê-la em arquivo de texto (csv ou avro ou parquet) em um ambiente no servidor interno com acesso apenas interno devido ao nivel de detalhamento das tabelas funcionarios e clientes. 
+A necessidade de manter a ODS se dá devido a necessidade do cliente em acessar detalhes dos pedidos em menor granulação através de um drill na visão. (funcionalidade ainda a ser desenvolvida no projeto)
+
+Para obter uma ODS completa conforme a modelagem foi necessário enriquecer alguns elementos e/ou remover alguns campos.
+As tabelas com transformaçoes foram: Detalhes_Pedidos, Pedidos, Funcionarios, Clientes. O restante das tabelas foram apenas carregadas e exportadas em csv.
+
+- Modelagem da ODS
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/ODS.png width=84%></p>
+
+- ETL Pedidos
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/ODS_Pedido.png width=84%></p>
+
+- ETL Funcionarios
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/ODS_Funcionario.png width=84%></p>
+
+- ETL Clientes
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/ODS_Cliente.png width=84%></p>
+
+- JOB Carga_ODS
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/463844d7ec08233447efa2329ed78220e6245eb6/Leega-Foods/Imagens/Carga_ODS.png width=84%></p>
+
