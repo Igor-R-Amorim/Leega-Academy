@@ -112,7 +112,7 @@ Assim como na ODS Para obter resultados condizentes com a modelagem foi necessá
 As tabelas com transformações foram: DIM_transportadora, DIM_Funcionarios, DIM_Cliente, DIM_Fornecedor, FT_Pedidos. O restante foi apenas carregado no MySQL.
  
 - ETL DIM_transportadora
-<br><br> <p align=center><img src= width=84%></p>
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/b84f3ed5d2e4678c4454d76e1186a0677abc0ce2/Leega-Foods/Imagens/DIM_Transportador.png width=84%></p>
 
 - ETL DIM_Funcionarios
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/DIM_Funcionario.png width=84%></p>
@@ -126,3 +126,33 @@ As tabelas com transformações foram: DIM_transportadora, DIM_Funcionarios, DIM
 - ETL FT_Pedidos
 <br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/bab88ec3da3bf4b5c45c67f0875c8d6de22f2355/Leega-Foods/Imagens/FT_Pedido.png width=84%></p>
 
+A fim de conseguir rodar as Cargas Historicas é necessario que o DataBase (DB) esteja criado, portanto para a carga historica foi necessario desenvolver um script em SQL para a criação do DB
+
+- Script SQL
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/b84f3ed5d2e4678c4454d76e1186a0677abc0ce2/Leega-Foods/Imagens/SQL.png width=84%></p>
+
+- Carga Historica
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/af709987d752b1ebda415deaa395fb3ba46ed27a/Leega-Foods/Imagens/Carga_Historica.png width=84%></p>
+
+Para Finalizar, foi conectado o PowerBI ao Mysql a fim de gerar alguns insights e levar para a gestão avaliar o valor das visões levantadas pela equipe de Dados.
+
+- Visão 1
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%201.png width=84%></p>
+
+- Visão 2
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%202.png width=84%></p>
+
+- Visão 3
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%203.png width=84%></p>
+
+- Visão 4
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%204.png width=84%></p>
+
+- Visão 5
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%205.png width=84%></p>
+
+- Visão 6
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%206.png width=84%></p>
+
+- Visão 7
+<br><br> <p align=center><img src=https://github.com/Igor-R-Amorim/Leega-Academy/blob/0e3ae557c43d112461bb3abbc1f8100711939ce5/Leega-Foods/Imagens/Visao%207.png width=84%></p>
