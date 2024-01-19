@@ -6,7 +6,7 @@ Neste repositório serão armazenados os scripts e os procedimentos a serem segu
 
 A ideia do laboratório é simular a extração dos dados de um e-commerce.  
 <br>
-<img src="https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/Processo%20Lab%20hands-on.jpg">
+<img src="https://github.com/Igor-R-Amorim/Leega-Academy/blob/cc56ceedbfc50090b3b457d7af596d14553b5d6a/Imagens-Relatorios/Airflow-SM/Processo%20Lab%20hands-on.jpg">
 <br><br>
 A extração acontece em 3 fontes de dados diferentes:
   - Extração de 3 tabelas do dataset público de ecommerce da google. [Setor Operacional]
