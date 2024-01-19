@@ -21,7 +21,7 @@ Todo esse processo requer uma ordem, que coordenamos através do Apache Airflow,
 <br><br>
 ## Preparação do Ambiente de Trabalho
 
-Antes de mais nada, é necessario acessar a sua plataforma na GCP e abrir o [Cloud Shell](https://console.cloud.google.com/) <img src="https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/icon-shell.png">.<br>
+Antes de mais nada, é necessario acessar a sua plataforma na GCP e abrir o [Cloud Shell](https://console.cloud.google.com/) <img src="https://github.com/Igor-R-Amorim/Leega-Academy/blob/44ecce5f6ef360a323c26e150f9f575154e8c09c/Imagens-Relatorios/Airflow-SM/icon-shell.png">.<br>
 
 #### _<u>Procedimento no Cloud Shell</u>_
 
