@@ -143,27 +143,27 @@ Aproveitando o contato com o [Console](https://console.cloud.google.com/), certi
   </tr>
 </table>
 
-![alt text](https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/tutorial-01.png)
+![alt text](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ab401e6f3f61c9d56233c8de7ecef4dd894d3b2a/Imagens-Relatorios/Airflow-SM/tutorial-01.png)
 
 <br><br>
 ## Criando o Ambiente do Composer
 
 Agora sim, <br>
 com todas as permissões devidamente concedidas, criaremos o nosso ambiente composer 2. Na barra de busca digite composer. <br>
-![alt text](https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/tutorial-02.png)
+![alt text](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ab401e6f3f61c9d56233c8de7ecef4dd894d3b2a/Imagens-Relatorios/Airflow-SM/tutorial-02.png)
 
 Ao se deparar com a janela do composer haverá, logo de cara, um botão CREATE com uma setinha para baixo, 
 o qual abre um pop-up para selecionar o ambiente desejado. <br>
 As opções de ambiente serão o composer 1 ou o composer 2. <br>
 Selecione o composer 2. <br>
-![alt text](https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/tutorial-03.png)
+![alt text](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ab401e6f3f61c9d56233c8de7ecef4dd894d3b2a/Imagens-Relatorios/Airflow-SM/tutorial-03.png)
 
 Na janela que se abrirá digite o nome do seu composer, selecione o local (de preferência o com maior cotas de disponibilidade) e a _service account_ que você usará para orquestrar os serviços do airflow. <br>
-![alt text](https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/tutorial-04.png)
+![alt text](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ab401e6f3f61c9d56233c8de7ecef4dd894d3b2a/Imagens-Relatorios/Airflow-SM/tutorial-04.png)
 
 <kbd>Lembre-se, caso necessário clique no checkbox para conceder o papel V2 API Service Agent para a sua _service account_. </kbd><br><br>
 Quanto aos recursos do ambiente vamos escolher as seguintes configurações baseadas no ambiente small: <br>
-![alt text](https://storage.googleapis.com/dataproc-storage-leega-bucket/Hands-on_Imagens/tutorial-05.png)
+![alt text](https://github.com/Igor-R-Amorim/Leega-Academy/blob/ab401e6f3f61c9d56233c8de7ecef4dd894d3b2a/Imagens-Relatorios/Airflow-SM/tutorial-05.png)
 
 Observe que diferentemente do ambiente small vamos usar apenas 1 worker no total, a fim de economizar com o valor do cluster. [sacrificando, assim, a escalabilidade do cluster]
 
